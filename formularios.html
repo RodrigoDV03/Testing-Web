@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios</title>
+</head>
+<body>
+    <h1>Formularios</h1>
+    <form>
+        <p>Formulario tipo texto</p>
+        <input type="text">
+        <p>Formulario tipo password</p>
+        <input type="password" required>
+        <p>Formulario tipo number</p>
+        <input type="number">
+        <p>Formulario tipo email. Solo acepta valores de tipo email.</p>
+        <input type="email">
+        <p>Formulario tipo color</p>
+        <input type="color">
+        <p>Formulario tipo range (Se pueden establecer los minimos (<b>min</b>) y maximos (<b>max</b>))</p>
+        <input type="range">
+        <p>Formulario tipo date</p>
+        <input type="date">
+        <p>Formulario tipo time</p>
+        <input type="time">
+        <p>Formulario tipo button. El atributo <b>value</b> permite establecer el texto dentro.</p>
+        <input type="button" value="boton">
+        <p>Formulario tipo submit</p>
+        <input type="submit">
+    </form>
+    <p>
+        El atributo <b>required</b> restringue que aquellos formularios que tengan dicho atributo sean olbigatorios para completar. <br>
+        El campo <b>textarea</b> puede cambiar su tamaño.
+        El atributo <b>readonly</b> restringue que sea solo lectura.
+    </p>
+    <form>
+        <textarea>Hello world</textarea>
+        <textarea readonly>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil suscipit eveniet ad amet est sed iure, quam dolore veniam consectetur voluptates impedit ab. Blanditiis quia quidem culpa, perferendis esse voluptates.</textarea>
+    </form>
+</body>
+</html>
