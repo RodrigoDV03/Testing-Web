@@ -1,0 +1,42 @@
+h1 {
+    color: red;
+}
+h2 {
+    color: blue;
+}
+
+.tituloh2 {
+    color: chocolate;
+}
+
+#element {
+    color: cyan;
+}
+
+button {
+    color: green;
+}
+
+[rodrigo="dv"] {
+    color: darkviolet;
+}
+
+h3{
+    color: cornflowerblue;
+}
+
+h3 p{
+  color: crimson;
+}
+
+.h3-class p{
+    color: darksalmon;
+}
+
+#h3-id p:hover{
+    color: red;
+}
+
+.h3-class p b:hover {
+    color: black;
+}
