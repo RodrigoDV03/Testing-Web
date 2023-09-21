@@ -1,0 +1,15 @@
+div{
+    color: red
+}
+
+#id {
+    color: blue;
+}
+
+.tercer-nivel {
+    color: green;
+}
+
+[elemento="cuarto-nivel"]{
+    color: purple
+}

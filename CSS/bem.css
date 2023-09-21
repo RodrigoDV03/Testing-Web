@@ -1,0 +1,11 @@
+.form__input{
+    color: red
+}
+
+.contact-form__input{
+    color: blue;
+}
+
+.contact-form__input--active{
+    color: green;
+}

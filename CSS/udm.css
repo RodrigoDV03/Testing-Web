@@ -1,0 +1,27 @@
+.medidas{
+    color: yellow;
+    font-size: 20px;
+    background-color: green;
+    width: 50vw;
+    height: 50vh;
+}
+
+.medidas__h2{
+    font-size: 1em;
+}
+
+.medidas__vw{
+    font-size: 2em;
+}
+
+.letter_type{
+    font-size: 16px;
+}
+
+.letter_type__h2{
+    font-size: 1em;
+    font-family: 'Georgia';
+    line-height: 1;
+    font-weight: 10000;
+    color: red;
+}

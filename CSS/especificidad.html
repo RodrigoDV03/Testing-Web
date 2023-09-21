@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="especificidad.css">
+    <title>Especificidad</title>
+</head>
+<body>
+    <h1 class="color-red" elemento="color-blue">
+        Especificidad
+    </h1>
+    <div>
+        <ul>
+            <li>!important</li>
+            <li estilo="en-linea" style="color:orange">estilos en linea</li>
+            <li id="id">id</li>
+            <li class="tercer-nivel">clases</li>
+            <li class="tercer-nivel">pseudo-clases</li>
+            <li class="tercer-nivel">atributos</li>
+            <li elemento="cuarto-nivel">elementos</li>
+            <li elemento="cuarto-nivel">pseudo-elementos</li>
+        </ul>
+    </div>
+</body>
+</html>

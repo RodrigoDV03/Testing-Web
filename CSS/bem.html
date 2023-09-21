@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="bem.css">
+    <title>Metodologia BEM</title>
+</head>
+<body>
+    <h1>Metodologia BEM</h1>
+    <p>
+        Consiste en evitar conflictos de css para conocer que elementos estamos seleccionando en base a la clase. <br>
+        Ponemos el nombre del contenedor, dos guiones bajos (__) y el nombre del elemento. <br>
+        Ejemplo: en este formulario tenemos 2 inputs: texto y password, la clase dentro de cada elemento tiene la siguiente forma: 'form__input'
+    </p>
+
+    <div class="form">
+        <input type="text" class="form__input">
+        <input type="text" class="form__input">
+        <input type="text" class="form__input">
+        <input type="text" class="form__input">
+        <input type="text" class="form__input">
+        <input type="password" class="form__input">
+    </div>
+
+    <p>
+        En caso querramos diferenciar a un elemento del resto, colocamos 2 guiones medios (--) y un nombre indicativo. <br>
+        Ejemplo: Los elementos del siguiente formulario tienen la siguiente clase: 'contact-form__input'. Mientras que el primer elemento tiene la siguiente clase: 'contact-form__input--active'. <br>
+    </p>
+
+    <div class="contact-form">
+        <input type="text" class="contact-form__input--active">
+        <input type="text" class="contact-form__input">
+        <input type="text" class="contact-form__input">
+        <input type="text" class="contact-form__input">
+        <input type="text" class="contact-form__input">
+        <input type="password" class="contact-form__input">
+    </div>
+</body>
+</html>
