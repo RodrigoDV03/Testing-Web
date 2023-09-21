@@ -1,0 +1,96 @@
+.list__position{
+    padding: 1.875rem 0 3.75rem;
+    box-sizing: border-box;
+    /*display: inline-block;*/
+}
+
+.list__position--title{
+    display: block;
+    font-family: "Oswald", sans-serif;
+    font-weight: 300;
+    font-size: 1.5rem;
+    letter-spacing: .15rem;
+    color: #333333;
+    text-align: center;
+    text-transform: uppercase;
+    line-height: 1.875rem;
+}
+
+h2 {
+    font-family: "Open Sans", Arial, Helvetica, sans-serif;
+    font-size: .875rem;
+    font-weight: normal;
+    letter-spacing: -0.018rem;
+    color: #185493;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 0.938rem;
+}
+
+.list__position--place{
+    width: 100%;
+    padding: 0 0;
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.list__position--place-c{
+    width: 100%;
+    position: relative;
+    border-bottom-left-radius: 0.313rem;
+    border-bottom-right-radius: 0.313rem;
+    overflow: hidden;
+    margin-top: 1.875rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: auto;
+}
+
+.list__position--item{
+    width: fit-content; /* Ajusta el ancho al contenido */
+    position: relative;
+    /* margin: 1.875rem; Puedes eliminar esta propiedad si ya no la necesitas */
+    flex: 1;
+    text-align: center;
+}
+
+.list__position--item-image{
+    position:calc((100vw - 2.813rem) / 2);
+    margin: 0 auto;
+    height: 200px;
+}
+
+.list__position--item-number{
+    font-family: "Oswald", sans-serif;
+    font-size: 25px;
+    font-weight: 500;
+    letter-spacing: -0.043rem;
+    color: #185493;
+    display: inline-block;
+    text-transform: uppercase;
+    line-height: 1.26;
+    flex-basis: 100%;
+    position: relative;
+    z-index: 2;
+}
+
+.list__position--item-name{
+    font-family: "Oswald", sans-serif;
+    font-size: 20px;
+    font-weight: 100;
+    letter-spacing: 0rem;
+    color: #000000;
+    display: inline-block;
+    text-transform: uppercase;
+    line-height: 1.26;
+    flex-basis: 100%;
+    position: relative;
+    z-index: 2;
+}
+
+.list__position--item-info{
+    text-align: center;
+}
