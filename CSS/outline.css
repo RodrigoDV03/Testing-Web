@@ -1,0 +1,95 @@
+/*Create div with display=inline-block*/
+div{
+    display: inline-block;
+}
+
+/*Create a css style for .caja1 and .caja2 where each one have widht=200px, height=200px and margin=auto. But .caja1 has background: red and .caja2 has background:*/
+.caja1{
+    width: 200px;
+    height: 200px;
+    margin: auto;
+    background: red;
+    outline: 5px solid black;
+}
+.caja2{
+    width: 200px;
+    height: 200px;
+    margin: auto;
+    background: blue;
+}
+/*Create a css style for .caja3 and .caja4 where each one have widht=200px, height=200px and margin=auto. But .caja3 has background: red and .caja4 has background:*/
+.caja3{
+    width: 200px;
+    height: 200px;
+    margin: auto;
+    background: green;
+}
+.caja4{
+    width: 200px;
+    height: 200px;
+    margin: auto;
+    background: yellow;
+}
+/*Delete margin auto from all the classes*/
+.caja1, .caja2, .caja3, .caja4{
+    margin: 0;
+}
+/*Create a css style from .caja5 to .caja8 where each one have widht=200px, height=200px and margin=auto. Each one with a differente background color*/
+.caja5{
+    width: 200px;
+    height: 200px;
+    margin: auto;
+    background: red;
+}
+.caja6{
+    width: 200px;
+    height: 200px;
+    margin: auto;
+    background: blue;
+    position: relative;
+    top: 50px;
+    left: 50px;
+}
+.caja7{
+    width: 200px;
+    height: 200px;
+    margin: auto;
+    background: green;
+}
+.caja8{
+    width: 200px;
+    height: 200px;
+    margin: auto;
+    background: yellow;
+}
+
+/*Create a css style from .caja9 to .caja12 where each one have widht=200px, height=200px and margin=auto. Each one has a different color*/
+.caja9{
+    width: 200px;
+    height: 200px;
+    margin: auto;
+    background: red;
+}
+.caja10{
+    width: 200px;
+    height: 200px;
+    margin: auto;
+    background: blue;
+}
+.caja11{
+    width: 200px;
+    height: 200px;
+    margin: auto;
+    background: green;
+    position: absolute;
+}
+.caja12{
+    width: 200px;
+    height: 200px;
+    margin: auto;
+    background: yellow;
+}
+
+p{
+    margin: 80px;
+}

@@ -1,7 +1,10 @@
+body{
+    background: #185493;
+}
+
 .list__position{
     padding: 1.875rem 0 3.75rem;
     box-sizing: border-box;
-    /*display: inline-block;*/
 }
 
 .list__position--title{
@@ -10,21 +13,10 @@
     font-weight: 300;
     font-size: 1.5rem;
     letter-spacing: .15rem;
-    color: #333333;
+    color: #ffffff;
     text-align: center;
     text-transform: uppercase;
     line-height: 1.875rem;
-}
-
-h2 {
-    font-family: "Open Sans", Arial, Helvetica, sans-serif;
-    font-size: .875rem;
-    font-weight: normal;
-    letter-spacing: -0.018rem;
-    color: #185493;
-    text-transform: uppercase;
-    text-align: center;
-    margin-bottom: 0.938rem;
 }
 
 .list__position--place{
@@ -39,50 +31,40 @@ h2 {
 .list__position--place-c{
     width: 100%;
     position: relative;
-    border-bottom-left-radius: 0.313rem;
-    border-bottom-right-radius: 0.313rem;
-    overflow: hidden;
     margin-top: 1.875rem;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: auto;
     margin: 10px;
     text-align: center;
 }
 
-/*.list__position--place-c-defenders{
-    width: 100%;
-    position: relative;
-    border-bottom-left-radius: 0.313rem;
-    border-bottom-right-radius: 0.313rem;
-    overflow: hidden;
-    margin-top: 1.875rem;
-    display: inline-block;
-    flex-wrap: wrap;
-    justify-content: center;
-    margin: 10px;
-    gap: 25%;
-    text-align: center;
-}*/
-
 .list__position--item{
-    width: fit-content;
+    background-color:goldenrod;
     position: relative;
-    flex: 1;
     text-align: center;
     display: inline-block;
-    /*width: 23%;*/
     margin: 10px;
-    vertical-align: top;
-    box-sizing: border-box;
+    border: 2px solid black;
+    box-sizing: content-box;
+    cursor: pointer;
+}
+
+.list__position--item:hover{
+    background: darkgoldenrod;
+    transition: background 0.5s ease-in-out;
 }
 
 .list__position--item-image{
-    width: 250px;
-    height: 250px;
+    width: 300px;
+    height: 300px;
     max-width: 100%;
     max-height: 100%;
+    border: #000000 1.5px solid;
+}
+
+.list__position--item-image img{
+    object-fit: cover;
 }
 
 .list__position--item-number{
@@ -96,7 +78,6 @@ h2 {
     line-height: 1.26;
     flex-basis: 100%;
     position: relative;
-    z-index: 2;
 }
 
 .list__position--item-name{
@@ -105,14 +86,24 @@ h2 {
     font-weight: 100;
     letter-spacing: 0rem;
     color: #000000;
-    display: inline-block;
     text-transform: uppercase;
-    line-height: 1.26;
     flex-basis: 100%;
     position: relative;
-    z-index: 2;
+}
+
+.list__position--item-position{
+    font-family: "Oswald", sans-serif;
+    font-size: 12px;
+    font-weight: 100;
+    letter-spacing: 0rem;
+    color: #000000;
+    text-transform: uppercase;
+    flex-basis: 100%;
+    position: relative;
+    margin-top: 5px;
 }
 
 .list__position--item-info{
+    box-sizing: content-box;
     text-align: center;
 }
