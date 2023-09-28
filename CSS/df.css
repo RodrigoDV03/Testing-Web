@@ -1,0 +1,31 @@
+*{
+    font-weight: 100;
+}
+
+.flex-container{
+    text-align: center;
+    display: flex;
+    /*flex-direction: row;
+    flex-direction: column;*/
+    flex-direction: row-reverse;
+    /*flex-direction: column-reverse;*/
+    flex-wrap: wrap;
+    /*flex-wrap: wrap-reverse;*/
+    /*flex-flow: row wrap;*/
+}
+
+.flex_item{
+    background-color: rgb(16, 114, 241);
+    color:white;
+    margin: 5px;
+    width: 120px;
+    height: 120px;
+}
+
+.red{
+    background-color: red;
+}
+
+.green{
+    background-color: green;
+}

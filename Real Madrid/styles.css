@@ -40,6 +40,7 @@ body{
 }
 
 .list__position--item{
+    height: fit-content 500px;
     background-color:goldenrod;
     position: relative;
     text-align: center;
@@ -56,8 +57,8 @@ body{
 }
 
 .list__position--item-image{
-    width: 300px;
-    height: 300px;
+    width: 175px;
+    height: 250px;
     max-width: 100%;
     max-height: 100%;
     border: #000000 1.5px solid;
@@ -107,3 +108,109 @@ body{
     box-sizing: content-box;
     text-align: center;
 }
+
+.nav__res_ul{
+    display: none;
+}
+
+.nav{
+    background-color: goldenrod;
+}
+
+.nav__li{
+    display: inline-block;
+    padding: 10px;
+    color: #1435f3;
+}
+
+.nav__li:hover > a{
+    background: rgb(170, 129, 24);
+    transition: background 0.5s ease-in-out;
+}
+
+.nav__li:hover{
+    background: rgb(170, 129, 24);
+    transition: background 0.5s ease-in-out;
+}
+
+.nav__li a{
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.nav__li i{
+    box-sizing: border-box;
+    text-align: right;
+    margin-right: 5px;
+}
+
+.nav__res_button-container{
+    position: absolute;
+    width: 100%;
+    font-size: 25px;
+    margin-top: -64px;
+    background-color: rgb(218, 153, 32);
+    z-index: 100;
+}
+
+.nav__res_button{
+    padding: 6px 20px;
+    text-align: right;
+    width: 100%;
+    background-color: rgb(218, 153, 32);
+}
+
+@media only screen and (max-width: 700px){
+    .nav__ul{
+        display: none;
+    }
+
+    .nav{
+        height: 50px;
+        width: 100%;
+        background-color: rgb(218, 153, 32);
+    }
+
+    .nav__res_ul{
+        display: block;
+        width: 100%;
+        position: absolute;
+        margin-top: 37px;
+        padding-top: 27px;
+        height: 37px;
+        background-color: rgb(218, 153, 32);
+    }
+
+    .nav__li_container{
+        position: relative;
+        top: -1000px;
+        height: calc(100vh - 64px);
+        background-color: rgb(218, 153, 32);
+        transition: all 1s;
+        z-index: 1;
+        width: 93%;
+        padding-top: 27px;
+    }
+
+    .nav__res_li{
+        width: 100%;
+        padding: 9px 20px;
+    }
+
+    .nav__res_li i{
+        box-sizing: border-box;
+        text-align: center;
+        margin-right: 5px;
+        width: 30px;
+        color: #028;
+    }
+
+    .nav__res_li a{
+        color: #028;
+        text-decoration: none;     
+    }
+
+    .nav__res_ul:hover >.nav__li_container{
+        top: -27px;
+    }
+} 
